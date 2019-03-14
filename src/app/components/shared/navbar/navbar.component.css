@@ -1,0 +1,121 @@
+.wrapper{
+  display: inline-block;
+  overflow: hidden;
+  height: 100%;
+  position: fixed;
+
+}
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ffd200;
+  overflow-x: hidden;
+  padding-top: 20px;
+  display: inline-block;
+  overflow-y: hidden;
+}
+
+.sidenav a {
+
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+  margin: auto;
+  width: 100%;
+  font-family: 'GOBOLD';
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.block{
+  width: 100%;
+  padding: 8%;
+  display: block;
+  /* background: linear-gradient(to right, black 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all .3s ease-out; */
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(to right, black 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+
+}
+
+.sidenav .active {
+    color: #f1f1f1;
+}
+
+.block:hover{
+  /* background-position: left bottom; */
+}
+
+.block:hover{
+
+}
+
+.main {
+  margin-left: 15%; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    overflow: hidden;
+    position: relative;
+
+}
+
+.logo-nav{
+  margin-top: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.rrss{
+  margin-top: 30%;
+  padding: 0 10% 0 10%;
+}
+
+.div-rrss{
+  margin-top: 55%;
+  text-align: center;
+}
+
+.div-rrss-mobile{
+  display: none;
+  text-align: center;
+
+}
+
+.items-menu{
+  margin-top: 10%;
+  text-align: center;
+  position: relative;
+}
+
+.menu-mobile{
+  display: none;
+}
+
+
+@media screen and (max-width: 450px) {
+  .sidenav {padding-top: 20px; width: 25%;}
+  .sidenav a {font-size: 14px; padding-top: 20px;}
+  .main {margin-left: 25%;}
+  .wrapper {position: absolute;}
+  .logo-nav{ width: 100%;}
+  .items-menu{margin-top: 50%;}
+  .rrss {width: 100%; padding: 0}
+  .block {background: transparent;}
+  .menu-mobile {display: block;}
+  .menu-desktop {display: none;}
+  .div-rrss {display: none;}
+  .div-rrss-mobile {display: block; margin-top: 50px;}
+}
