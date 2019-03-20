@@ -1,7 +1,27 @@
 .main {
-  margin-left: 15%; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
+    margin-left: 15%;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
     overflow: hidden;
     position: relative;
+}
 
+.first-paragraph {
+    text-align: center;
+    margin: 2.5% 0 0 6.5%;
+}
+
+.second-paragraph {
+    text-align: center;
+    margin: 4.5% 0 0 6.5%;
+}
+
+.three-paragraph {
+    text-align: center;
+    margin: 0 0 0 6.5%;
+}
+
+.social a :hover {
+    color: #fdd200;
 }
