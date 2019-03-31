@@ -9,7 +9,6 @@ body {
 
 .modal-body {
     position: relative;
-    padding: 0px;
 }
 
 .close {
@@ -122,11 +121,12 @@ body {
     border-color: white;
     border-style: solid;
     width: 17%;
-    height: 90%;
+    height: 100%;
     position: absolute;
     display: inline;
     align-items: center;
     bottom: 0;
+    margin-top: 5%;
 }
 
 .contenedor5:hover>.textos-home {
@@ -144,6 +144,15 @@ body {
     align-items: center;
     bottom: 0;
     margin-left: 18%;
+    margin-top: 5%;
+}
+
+.columna-1-second-section{
+  position: relative;
+}
+
+.columna-2-second-section{
+  position: relative;
 }
 
 .contenedor6:hover>.textos-home {
@@ -155,17 +164,13 @@ body {
     display: none;
     margin-left: 25%;
     position: relative;
-    background-color: red;
 }
 
 .img-mobile {
     height: auto;
     width: 100%;
     max-width: 100%;
-    border-style: solid;
-    border-color: red;
     position: relative;
-    background-color: blue;
     text-align: center;
     justify-content: center;
 }
@@ -187,4 +192,5 @@ body {
         border-color: white;
         border-style: solid;
     }
+    .close { right: 30px;}
 }
