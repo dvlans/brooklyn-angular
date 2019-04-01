@@ -1,7 +1,23 @@
 .main {
-  margin-left: 15%; /* Same as the width of the sidenav */
-    font-size: 20px; /* Increased text to enable scrolling */
+    margin-left: 15%;
+    /* Same as the width of the sidenav */
+    font-size: 20px;
+    /* Increased text to enable scrolling */
     overflow: hidden;
     position: relative;
+}
 
+.contact-form {
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.container-rrss-card-header i:hover {
+    color: white;
+}
+
+.card-header {
+    background-color: #fdd200;
+    border-radius: 5% 1% 0% 0%;
 }
