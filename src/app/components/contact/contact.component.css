@@ -21,3 +21,23 @@
     background-color: #fdd200;
     border-radius: 5% 1% 0% 0%;
 }
+
+.contact-mobile {
+    display: none;
+    margin-left: 25%;
+    position: relative;
+}
+
+@media screen and (max-width:450px) {
+    .main {
+        display: none;
+    }
+    .contact-mobile {
+        display: block;
+        border-color: white;
+        border-style: solid;
+    }
+    .close {
+        right: 30px;
+    }
+}

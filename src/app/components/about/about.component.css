@@ -25,3 +25,23 @@
 .social a :hover {
     color: #fdd200;
 }
+
+.about-mobile {
+    display: none;
+    margin-left: 25%;
+    position: relative;
+}
+
+@media screen and (max-width:450px) {
+    .main {
+        display: none;
+    }
+    .about-mobile {
+        display: block;
+        border-color: white;
+        border-style: solid;
+    }
+    .close {
+        right: 30px;
+    }
+}

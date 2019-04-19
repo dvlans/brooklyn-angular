@@ -10,3 +10,8 @@
     box-sizing: border-box;
     font-family: 'GOBOLD';
 }
+
+.img-circle {
+    border-radius: 100%;
+    width: 150px;
+}

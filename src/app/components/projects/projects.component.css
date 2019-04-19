@@ -10,3 +10,23 @@
 .modal-content {
     border: none;
 }
+
+.proyects-mobile {
+    display: none;
+    margin-left: 25%;
+    position: relative;
+}
+
+@media screen and (max-width:450px) {
+    .main {
+        display: none;
+    }
+    .proyects-mobile {
+        display: block;
+        border-color: white;
+        border-style: solid;
+    }
+    .close {
+        right: 30px;
+    }
+}

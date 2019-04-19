@@ -11,6 +11,10 @@ body {
     position: relative;
 }
 
+.modal-content {
+    border: none;
+}
+
 .close {
     position: absolute;
     right: -30px;
@@ -147,12 +151,12 @@ body {
     margin-top: 5%;
 }
 
-.columna-1-second-section{
-  position: relative;
+.columna-1-second-section {
+    position: relative;
 }
 
-.columna-2-second-section{
-  position: relative;
+.columna-2-second-section {
+    position: relative;
 }
 
 .contenedor6:hover>.textos-home {
@@ -192,5 +196,7 @@ body {
         border-color: white;
         border-style: solid;
     }
-    .close { right: 30px;}
+    .close {
+        right: 30px;
+    }
 }
