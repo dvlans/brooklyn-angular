@@ -75,7 +75,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
 }
 
 .rrss{
@@ -91,17 +91,18 @@
 .div-rrss-mobile{
   display: none;
   text-align: center;
-
+  margin-top: 200%;
 }
 
 .items-menu{
-  margin-top: 10%;
+  margin-top: 50%;
   text-align: center;
   position: relative;
 }
 
 .menu-mobile{
   display: none;
+  margin-top: 100%;
 }
 
 
