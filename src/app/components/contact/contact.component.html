@@ -30,28 +30,22 @@
                 <!-- Form -->
                 <form class="text-center" style="color: #757575;margin-top: 3%;">
 
-                    <!-- Email -->
-                    <div class="md-form">
-                        <input type="email" id="materialLoginFormEmail" class="form-control">
-                        <label for="materialLoginFormEmail">nombre :</label>
-                    </div>
+                  <!-- name -->
+                  <div class="field">
+                    <input type="text" name="name" class="input" placeholder="Nombre" [(ngModel)]="nombre">
+                  </div>
 
-                    <!-- Password -->
-                    <div class="md-form">
-                        <input type="password" id="materialLoginFormPassword" class="form-control">
-                        <label for="materialLoginFormPassword">Tu correo </label>
-                    </div>
-                    <div class="md-form">
-                        <input type="text" id="materialLoginFormPassword" class="form-control">
-                        <label for="materialLoginFormPassword">Mensaje </label>
-                    </div>
+                  <!-- email -->
+                  <div class="field">
+                    <input type="email" name="email" class="input" placeholder="Email" [(ngModel)]="email">
+                  </div>
 
+                  <!-- message -->
+                  <div class="field">
+                    <textarea class="textarea" name="message" placeholder="¿Cómo te podemos ayudar?" [(ngModel)]="mensaje"></textarea>
+                  </div>
 
-
-
-                    <!-- Sign in button -->
-                    <button style="float: right;" class="btn btn-warning btn-rounded  my-4 waves-effect z-depth-0" type="submit">Enviar</button>
-
+                  <button type="submit" class="button is-danger is-large">Enviar</button>
 
 
 
