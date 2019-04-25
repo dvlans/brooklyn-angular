@@ -187,6 +187,10 @@ body {
     font-family: 'GOBOLD', 'arial', sans-serif;
 }
 
+.btn{
+  padding: 0 !important;
+}
+
 @media screen and (max-width:450px) {
     .main {
         display: none;

@@ -44,7 +44,6 @@
   transition: all .3s ease-out; */
   text-align: center;
   text-transform: uppercase;
-  background: linear-gradient(to right, black 50%, transparent 50%);
   background-size: 200% 100%;
   background-position: right bottom;
 
@@ -81,6 +80,7 @@
 .rrss{
   margin-top: 30%;
   padding: 0 10% 0 10%;
+  cursor: pointer;
 }
 
 .div-rrss{
